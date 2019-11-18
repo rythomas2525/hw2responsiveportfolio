@@ -1,9 +1,39 @@
 .card {
     color: black;
-    margin: auto;
+    margin: auto;    
 }
 
 .port {
     margin: auto;
+}
+
+
+.container {
+    margin-top: 30px;
+    background:#333a40;
+    color: #999da0;
+   
+}
+body {
+    background-image: url(../images/hotel-wallpaper-black.png);
+}
+
+p {
+    font-size: 18px;
+}
+
+.card {
+    border: grey;
+    background: #999da0;
+   margin-bottom: 30px;
+   
+}
+
+.card :hover {
+    color: white;
+}
+
+.card :active {
+    color: #00a9a6;
 }
 

@@ -16,16 +16,14 @@
 
 <body>
 
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-
+        <span class=" d-flex flex-fill"></span>
+        <div class="navbar-collapse collapse" id="navbar">
+            <ul class="navbar-nav justify-content-center d-flex flex-fill">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">About</a>
                 </li>
@@ -33,16 +31,19 @@
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Me</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
-
-
             </ul>
-
+        </div>
+        <div class="d-flex flex-fill">
+            <!--spacer-->
         </div>
     </nav>
 
-    <div class="container">
+
+
+
+    <div class="container rounded">
         <br>
         <div class="row">
             <div class="port" class="col-md-4">
@@ -74,16 +75,22 @@
                                 rows="12"></textarea>
                         </div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-1" style="float: right;">
                         <button type="submit" class="btn btn-dark">Submit</button>
                     </div>
                 </form>
             </div>
+
         </div>
+        <br>
     </div>
 
     <br>
-    <footer></footer>
+    <footer>
+        <div class=" navbar sticky-bottom navbar-dark bg-dark">
+            <a class="navbar-brand">Copyright</a>
+        </div>
+    </footer>
 </body>
 
 </html>
