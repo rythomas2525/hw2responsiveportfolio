@@ -3,23 +3,22 @@
     margin: auto;    
 }
 
-.port {
-    margin: auto;
-}
+
 
 
 .container {
     margin-top: 30px;
     background:#333a40;
     color: #999da0;
-   
+   margin-bottom: 2rem !important;
+  
 }
 body {
     background-image: url(../images/hotel-wallpaper-black.png);
 }
 
 p {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .card {
@@ -36,4 +35,10 @@ p {
 .card :active {
     color: #00a9a6;
 }
+
+h5 {
+    color: #999da0 !important;
+   
+}
+ 
 
