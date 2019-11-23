@@ -36,7 +36,20 @@ p {
 
 h5 {
     color: #999da0 !important;
-   
+    
 }
  
 
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: 60px;
+}
+
+.footer1 {
+    height: 60px;
+    text-align: center !important;
+}
