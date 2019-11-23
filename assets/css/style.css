@@ -45,11 +45,11 @@ body {
 }
 
 .wrapper {
-    min-height: 100%;
-    margin-bottom: 70px;
+    min-height: 100% !important;
+    margin-bottom: 70px !important;
 }
 
 .footer1 {
-    height: 70px;
+    height: 70px !important;
     text-align: center !important;
 }
