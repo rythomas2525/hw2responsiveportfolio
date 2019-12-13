@@ -8,7 +8,7 @@
     margin-top: 30px;
     background:#333a40;
     color: #999da0;
-   margin-bottom: 2rem !important;
+   margin-bottom: 13rem !important;
   
 }
 body {
@@ -52,4 +52,8 @@ body {
 .footer1 {
     height: 60px !important;
     text-align: center !important;
+
+}
+.push {
+    height: 60px;
 }
